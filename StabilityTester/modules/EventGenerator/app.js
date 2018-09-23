@@ -4,6 +4,10 @@ var Transport = require('azure-iot-device-mqtt').Mqtt;
 var Client = require('azure-iot-device').ModuleClient;
 var Message = require('azure-iot-device').Message;
 
+const concurrency = parseInt(process.env.CONCURRENCY) || 1;
+
+console.log(`Concurrency is ${concurrency}`);
+
 Client.fromEnvironment(Transport, function (err, client) {
   if (err) {
     throw err;
@@ -24,8 +28,9 @@ Client.fromEnvironment(Transport, function (err, client) {
           pipeMessage(client, inputName, msg);
         });
 
-        var interval = process.env.INTERVAL || 1; // every second is default
-        setInterval( () => sendEvent(client), 1000 * interval); 
+        var interval = parseInt(process.env.INTERVAL || 1); // every second is default
+        // set an interval once for each number of concurrent messages we're going to send
+        for (var i = 1; i <= concurrency; i++) setInterval( () => sendEvent(client), 1000 * interval); 
       }
     });
   }

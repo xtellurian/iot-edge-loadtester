@@ -47,12 +47,12 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.EventGenerator.arm32v7}",
+              "image": "flanagan89/eventgenerator:0.0.3-arm32v7",
               "createOptions": ""
             },
             "env": {
               "CONCURRENCY": {
-                "value": 1
+                "value": 5
               }
             }
           },
@@ -62,7 +62,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.EventParser.arm32v7}",
+              "image": "flanagan89/eventparser:0.0.2-arm32v7",
               "createOptions": ""
             }
           }
