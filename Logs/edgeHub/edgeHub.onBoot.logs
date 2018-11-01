@@ -1,0 +1,68 @@
+2018-10-30 22:39:40.108 +00:00 [INF] - Installing intermediate certificates.
+2018-10-30 22:39:40.221 +00:00 [INF] - Created device scope identities cache
+2018-10-30 22:39:40.286 +00:00 [INF] - Starting refresh of device scope identities cache
+2018-10-30 22:39:40.446 +00:00 [INF] - Created new message store
+2018-10-30 22:39:40.455 +00:00 [INF] - Started task to cleanup processed and stale messages
+2018-10-30 22:39:41.326 +00:00 [INF] - Initializing configuration
+2018-10-30 22:39:41.480 +00:00 [INF] - New device connection for device franky/$edgeHub
+2018-10-30 22:39:41.816 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/$edgeHub via AMQP...
+2018-10-30 22:39:42.287 +00:00 [INF] - Created cloud proxy for client franky/$edgeHub via AMQP, with client operation timeout 20000.
+2018-10-30 22:39:42.324 +00:00 [INF] - Initialized cloud proxy 16163f39-eefd-4096-bcc8-f7fad90bba42 for franky/$edgeHub
+2018-10-30 22:39:42.331 +00:00 [INF] - Created cloud connection for client franky/$edgeHub
+2018-10-30 22:39:42.400 +00:00 [INF] - Processing subscription DesiredPropertyUpdates for client franky/$edgeHub.
+2018-10-30 22:39:42.996 +00:00 [INF] - Processing subscription Methods for client franky/$edgeHub.
+2018-10-30 22:39:46.262 +00:00 [INF] - Cloud connection for franky/$edgeHub is True
+2018-10-30 22:39:46.311 +00:00 [INF] - Connection status for franky/$edgeHub changed to ConnectionEstablished
+2018-10-30 22:39:46.336 +00:00 [INF] - Exiting disconnected state
+2018-10-30 22:39:46.352 +00:00 [INF] - Entering connected state
+2018-10-30 22:39:46.355 +00:00 [INF] - Processing subscriptions for client franky/$edgeHub.
+2018-10-30 22:39:46.417 +00:00 [INF] - Processing subscription DesiredPropertyUpdates for client franky/$edgeHub.
+2018-10-30 22:39:46.432 +00:00 [INF] - Processing subscription Methods for client franky/$edgeHub.
+2018-10-30 22:39:48.616 +00:00 [INF] - Obtained edge hub config from module twin
+2018-10-30 22:39:49.328 +00:00 [INF] - Set the following 2 route(s) in edge hub
+2018-10-30 22:39:49.334 +00:00 [INF] - EventGeneratorToEventParser: FROM /messages/modules/EventGenerator/outputs/* INTO BrokeredEndpoint("/modules/EventParser/inputs/input1")
+2018-10-30 22:39:49.334 +00:00 [INF] - EventParserToIoTHub: FROM /messages/modules/EventParser/outputs/* INTO $upstream
+2018-10-30 22:39:49.340 +00:00 [INF] - Updated message store TTL to 60 seconds
+2018-10-30 22:39:49.343 +00:00 [INF] - Updated the edge hub store and forward configuration
+2018-10-30 22:39:49.345 +00:00 [INF] - Initialized edge hub configuration
+2018-10-30 22:39:49.431 +00:00 [INF] - Starting timer to authenticate connections with a period of 300 seconds
+2018-10-30 22:39:49.891 +00:00 [INF] - Starting protocol heads - (MQTT, AMQP, HTTP)
+2018-10-30 22:39:49.928 +00:00 [INF] - Starting MQTT head
+2018-10-30 22:39:50.565 +00:00 [INF] - Initializing TLS endpoint on port 8883 for MQTT head.
+2018-10-30 22:39:51.090 +00:00 [INF] - Starting AMQP head
+2018-10-30 22:39:51.248 +00:00 [INF] - Started MQTT head
+2018-10-30 22:39:51.734 +00:00 [INF] - Started AMQP head
+2018-10-30 22:39:51.750 +00:00 [INF] - Starting HTTP head
+2018-10-30 22:39:52.440 +00:00 [INF] - User profile is available. Using '"/home/edgehubuser/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-10-30 22:39:52.614 +00:00 [INF] - Client franky/EventParser in device scope authenticated locally.
+2018-10-30 22:39:52.614 +00:00 [INF] - Client franky/EventGenerator in device scope authenticated locally.
+2018-10-30 22:39:52.625 +00:00 [INF] - Creating key {e4844bb3-2cf4-48c2-90e6-39ebb5d6fc27} with creation date 2018-10-30 22:39:52Z, activation date 2018-10-30 22:39:52Z, and expiration date 2019-01-28 22:39:52Z.
+2018-10-30 22:39:52.630 +00:00 [INF] - Successfully generated identity for clientId franky/EventParser and username riantest.azure-devices.net/franky/EventParser/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)2018-10-30 22:39:52.631 +00:00 [INF] - Successfully generated identity for clientId franky/EventGenerator and username riantest.azure-devices.net/franky/EventGenerator/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)
+2018-10-30 22:39:52.654 +00:00 [INF] - ClientAuthenticated, franky/EventGenerator, 77113bd5
+2018-10-30 22:39:52.654 +00:00 [INF] - ClientAuthenticated, franky/EventParser, 76dfd3fc
+2018-10-30 22:39:52.765 +00:00 [WRN] - No XML encryptor configured. Key {e4844bb3-2cf4-48c2-90e6-39ebb5d6fc27} may be persisted to storage in unencrypted form.
+2018-10-30 22:39:52.819 +00:00 [INF] - Writing data to file '"/home/edgehubuser/.aspnet/DataProtection-Keys/key-e4844bb3-2cf4-48c2-90e6-39ebb5d6fc27.xml"'.
+2018-10-30 22:39:52.850 +00:00 [INF] - New device connection for device franky/EventGenerator
+2018-10-30 22:39:52.853 +00:00 [INF] - New device connection for device franky/EventParser
+2018-10-30 22:39:52.986 +00:00 [INF] - Bind device proxy for device franky/EventGenerator
+2018-10-30 22:39:52.986 +00:00 [INF] - Bind device proxy for device franky/EventParser
+2018-10-30 22:39:52.993 +00:00 [INF] - Binding message channel for device Id franky/EventGenerator
+2018-10-30 22:39:52.993 +00:00 [INF] - Binding message channel for device Id franky/EventParser
+2018-10-30 22:39:53.142 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventGenerator via AMQP...
+2018-10-30 22:39:53.173 +00:00 [INF] - Created cloud proxy for client franky/EventGenerator via AMQP, with client operation timeout 20000.
+2018-10-30 22:39:53.174 +00:00 [INF] - Initialized cloud proxy 31431e6c-6d1c-4ef8-a22d-1f9bb727b964 for franky/EventGenerator
+2018-10-30 22:39:53.174 +00:00 [INF] - Created cloud connection for client franky/EventGenerator
+2018-10-30 22:39:53.174 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventGenerator.
+2018-10-30 22:39:53.240 +00:00 [INF] - Set subscriptions from session state for franky/EventGenerator
+2018-10-30 22:39:53.248 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventParser via AMQP...
+2018-10-30 22:39:53.249 +00:00 [INF] - Created cloud proxy for client franky/EventParser via AMQP, with client operation timeout 20000.
+2018-10-30 22:39:53.250 +00:00 [INF] - Initialized cloud proxy 29093226-43a3-43da-84d1-53c9c01a8655 for franky/EventParser
+2018-10-30 22:39:53.250 +00:00 [INF] - Created cloud connection for client franky/EventParser
+2018-10-30 22:39:53.250 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.
+2018-10-30 22:39:53.251 +00:00 [INF] - Set subscriptions from session state for franky/EventParser
+2018-10-30 22:39:54.873 +00:00 [WRN] - Overriding address(es) '"http://+:80"'. Binding to endpoints defined in "UseKestrel()" instead.
+2018-10-30 22:39:55.008 +00:00 [INF] - Started HTTP head
+2018-10-30 22:40:00.840 +00:00 [INF] - Cloud connection for franky/EventParser is True
+2018-10-30 22:40:00.840 +00:00 [INF] - Connection status for franky/EventParser changed to ConnectionEstablished
+2018-10-30 22:40:00.841 +00:00 [INF] - Processing subscriptions for client franky/EventParser.
+2018-10-30 22:40:00.842 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.

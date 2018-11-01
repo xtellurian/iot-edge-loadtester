@@ -1,0 +1,311 @@
+2018-11-01 14:19:51.584 +00:00 [INF] - Connection status for franky/EventParser changed to ConnectionEstablished
+2018-11-01 14:19:51.585 +00:00 [INF] - Processing subscriptions for client franky/EventParser.
+2018-11-01 14:19:51.585 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.
+2018-11-01 14:24:39.334 +00:00 [INF] - Closing connection for device: franky/EventParser, ,
+2018-11-01 14:24:39.341 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventParser because of exception -
+2018-11-01 14:24:39.357 +00:00 [INF] - Setting device proxy inactive for device Id franky/EventParser
+2018-11-01 14:24:39.386 +00:00 [INF] - Device connection removed for device franky/EventParser
+2018-11-01 14:24:39.423 +00:00 [INF] - Remove device connection for device franky/EventParser
+2018-11-01 14:24:39.609 +00:00 [INF] - Client franky/EventParser in device scope authenticated locally.
+2018-11-01 14:24:39.610 +00:00 [INF] - Successfully generated identity for clientId franky/EventParser and username riantest.azure-devices.net/franky/EventParser/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)2018-11-01 14:24:39.610 +00:00 [INF] - ClientAuthenticated, franky/EventParser, 32d4025e
+2018-11-01 14:24:39.613 +00:00 [INF] - New device connection for device franky/EventParser
+2018-11-01 14:24:39.617 +00:00 [INF] - Bind device proxy for device franky/EventParser
+2018-11-01 14:24:39.617 +00:00 [INF] - Binding message channel for device Id franky/EventParser
+2018-11-01 14:24:42.992 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 14:24:44.725 +00:00 [INF] - Closing connection for device: franky/EventGenerator, ,
+2018-11-01 14:24:44.725 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventGenerator because of exception -
+2018-11-01 14:24:44.726 +00:00 [INF] - Setting device proxy inactive for device Id franky/EventGenerator
+2018-11-01 14:24:44.727 +00:00 [INF] - Device connection removed for device franky/EventGenerator
+2018-11-01 14:24:44.730 +00:00 [INF] - Remove device connection for device franky/EventGenerator
+2018-11-01 14:24:44.953 +00:00 [INF] - Client franky/EventGenerator in device scope authenticated locally.
+2018-11-01 14:24:44.953 +00:00 [INF] - Successfully generated identity for clientId franky/EventGenerator and username riantest.azure-devices.net/franky/EventGenerator/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)
+2018-11-01 14:24:44.953 +00:00 [INF] - ClientAuthenticated, franky/EventGenerator, 34b8a356
+2018-11-01 14:24:44.955 +00:00 [INF] - New device connection for device franky/EventGenerator
+2018-11-01 14:24:44.957 +00:00 [INF] - Bind device proxy for device franky/EventGenerator
+2018-11-01 14:24:44.957 +00:00 [INF] - Binding message channel for device Id franky/EventGenerator
+2018-11-01 14:29:42.940 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 14:34:42.940 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 14:39:42.929 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 14:44:42.930 +00:00 [INF] - Reauthenticating connected clients
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+[2018-11-01 14:47:51 +00:00]: Starting Edge Hub
+[11/01/2018 02:47:52.584 PM] Edge Hub Main()
+2018-11-01 14:48:04.638 +00:00 [INF] - Created persistent store at /tmp/edgeHub
+2018-11-01 14:48:04.976 +00:00 [INF] - Starting Edge Hub
+2018-11-01 14:48:04.980 +00:00 [INF] - Version - 1.0.2.16940264 (f6fcdb2e24ac2af977e748e9f2b8a37245b92738)
+2018-11-01 14:48:04.982 +00:00 [INF] -
+        █████╗ ███████╗██╗   ██╗██████╗ ███████╗
+       ██╔══██╗╚══███╔╝██║   ██║██╔══██╗██╔════╝
+       ███████║  ███╔╝ ██║   ██║██████╔╝█████╗
+       ██╔══██║ ███╔╝  ██║   ██║██╔══██╗██╔══╝
+       ██║  ██║███████╗╚██████╔╝██║  ██║███████╗
+       ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+ ██╗ ██████╗ ████████╗    ███████╗██████╗  ██████╗ ███████╗
+ ██║██╔═══██╗╚══██╔══╝    ██╔════╝██╔══██╗██╔════╝ ██╔════╝
+ ██║██║   ██║   ██║       █████╗  ██║  ██║██║  ███╗█████╗
+ ██║██║   ██║   ██║       ██╔══╝  ██║  ██║██║   ██║██╔══╝
+ ██║╚██████╔╝   ██║       ███████╗██████╔╝╚██████╔╝███████╗
+ ╚═╝ ╚═════╝    ╚═╝       ╚══════╝╚═════╝  ╚═════╝ ╚══════╝
+
+2018-11-01 14:48:04.983 +00:00 [INF] - Installing intermediate certificates.
+2018-11-01 14:48:05.254 +00:00 [INF] - Created new message store
+2018-11-01 14:48:05.254 +00:00 [INF] - Started task to cleanup processed and stale messages
+2018-11-01 14:48:05.502 +00:00 [INF] - Created device scope identities cache
+2018-11-01 14:48:05.539 +00:00 [INF] - Starting refresh of device scope identities cache
+2018-11-01 14:48:05.951 +00:00 [INF] - Initializing configuration
+2018-11-01 14:48:06.129 +00:00 [INF] - New device connection for device franky/$edgeHub
+2018-11-01 14:48:06.479 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/$edgeHub via AMQP...
+2018-11-01 14:48:06.982 +00:00 [INF] - Created cloud proxy for client franky/$edgeHub via AMQP, with client operation timeout 20000.
+2018-11-01 14:48:07.017 +00:00 [INF] - Initialized cloud proxy 54d04e7f-2ec9-4786-88d9-0815779f50d0 for franky/$edgeHub
+2018-11-01 14:48:07.025 +00:00 [INF] - Created cloud connection for client franky/$edgeHub
+2018-11-01 14:48:07.093 +00:00 [INF] - Processing subscription DesiredPropertyUpdates for client franky/$edgeHub.
+2018-11-01 14:48:07.798 +00:00 [INF] - Processing subscription Methods for client franky/$edgeHub.
+2018-11-01 14:48:11.269 +00:00 [INF] - Cloud connection for franky/$edgeHub is True
+2018-11-01 14:48:11.343 +00:00 [INF] - Connection status for franky/$edgeHub changed to ConnectionEstablished
+2018-11-01 14:48:11.343 +00:00 [INF] - Exiting disconnected state
+2018-11-01 14:48:11.354 +00:00 [INF] - Entering connected state
+2018-11-01 14:48:11.373 +00:00 [INF] - Processing subscriptions for client franky/$edgeHub.
+2018-11-01 14:48:11.424 +00:00 [INF] - Processing subscription DesiredPropertyUpdates for client franky/$edgeHub.
+2018-11-01 14:48:11.440 +00:00 [INF] - Processing subscription Methods for client franky/$edgeHub.
+2018-11-01 14:48:13.587 +00:00 [INF] - Obtained edge hub config from module twin
+2018-11-01 14:48:14.315 +00:00 [INF] - Set the following 2 route(s) in edge hub
+2018-11-01 14:48:14.322 +00:00 [INF] - EventGeneratorToEventParser: FROM /messages/modules/EventGenerator/outputs/* INTO BrokeredEndpoint("/modules/EventParser/inputs/input1")
+2018-11-01 14:48:14.322 +00:00 [INF] - EventParserToIoTHub: FROM /messages/modules/EventParser/outputs/* INTO $upstream
+2018-11-01 14:48:14.328 +00:00 [INF] - Updated message store TTL to 60 seconds
+2018-11-01 14:48:14.330 +00:00 [INF] - Updated the edge hub store and forward configuration
+2018-11-01 14:48:14.333 +00:00 [INF] - Initialized edge hub configuration
+2018-11-01 14:48:14.448 +00:00 [INF] - Starting timer to authenticate connections with a period of 300 seconds
+2018-11-01 14:48:14.860 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 14:48:14.886 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:14.889 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:14.890 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:14.898 +00:00 [INF] - Starting protocol heads - (MQTT, AMQP, HTTP)
+2018-11-01 14:48:14.930 +00:00 [INF] - Starting MQTT head
+2018-11-01 14:48:15.738 +00:00 [INF] - Initializing TLS endpoint on port 8883 for MQTT head.
+2018-11-01 14:48:15.964 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 14:48:15.966 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:15.966 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:15.966 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:16.149 +00:00 [INF] - Starting AMQP head
+2018-11-01 14:48:16.206 +00:00 [INF] - Started MQTT head
+2018-11-01 14:48:16.747 +00:00 [INF] - Started AMQP head
+2018-11-01 14:48:16.762 +00:00 [INF] - Starting HTTP head
+2018-11-01 14:48:17.372 +00:00 [INF] - User profile is available. Using '"/home/edgehubuser/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-11-01 14:48:17.570 +00:00 [INF] - Client franky/EventGenerator in device scope authenticated locally.
+2018-11-01 14:48:17.583 +00:00 [INF] - Successfully generated identity for clientId franky/EventGenerator and username riantest.azure-devices.net/franky/EventGenerator/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)
+2018-11-01 14:48:17.601 +00:00 [INF] - ClientAuthenticated, franky/EventGenerator, 072d1b7f
+2018-11-01 14:48:17.877 +00:00 [INF] - New device connection for device franky/EventGenerator
+2018-11-01 14:48:17.945 +00:00 [INF] - Bind device proxy for device franky/EventGenerator
+2018-11-01 14:48:17.952 +00:00 [INF] - Binding message channel for device Id franky/EventGenerator
+2018-11-01 14:48:18.018 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 14:48:18.088 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:18.089 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:18.090 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-01 14:48:18.730 +00:00 [INF] - Client franky/EventParser in device scope authenticated locally.
+2018-11-01 14:48:18.731 +00:00 [INF] - Successfully generated identity for clientId franky/EventParser and username riantest.azure-devices.net/franky/EventParser/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)2018-11-01 14:48:18.732 +00:00 [INF] - ClientAuthenticated, franky/EventParser, 6e0d0c8f
+2018-11-01 14:48:18.737 +00:00 [INF] - New device connection for device franky/EventParser
+2018-11-01 14:48:18.740 +00:00 [INF] - Bind device proxy for device franky/EventParser
+2018-11-01 14:48:18.740 +00:00 [INF] - Binding message channel for device Id franky/EventParser
+2018-11-01 14:48:18.985 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventParser via AMQP...
+2018-11-01 14:48:19.024 +00:00 [INF] - Created cloud proxy for client franky/EventParser via AMQP, with client operation timeout 20000.
+2018-11-01 14:48:19.025 +00:00 [INF] - Initialized cloud proxy ef7c06d3-4df6-4333-92af-4f3786ac4087 for franky/EventParser
+2018-11-01 14:48:19.025 +00:00 [INF] - Created cloud connection for client franky/EventParser
+2018-11-01 14:48:19.026 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.
+2018-11-01 14:48:19.064 +00:00 [INF] - Set subscriptions from session state for franky/EventParser
+2018-11-01 14:48:19.071 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventGenerator via AMQP...
+2018-11-01 14:48:19.072 +00:00 [INF] - Created cloud proxy for client franky/EventGenerator via AMQP, with client operation timeout 20000.
+2018-11-01 14:48:19.073 +00:00 [INF] - Initialized cloud proxy 1160d4fa-89d0-4241-a367-be638ed6452e for franky/EventGenerator
+2018-11-01 14:48:19.073 +00:00 [INF] - Created cloud connection for client franky/EventGenerator
+2018-11-01 14:48:19.073 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventGenerator.
+2018-11-01 14:48:19.074 +00:00 [INF] - Set subscriptions from session state for franky/EventGenerator
+2018-11-01 14:48:19.740 +00:00 [WRN] - Overriding address(es) '"http://+:80"'. Binding to endpoints defined in "UseKestrel()" instead.
+2018-11-01 14:48:19.871 +00:00 [INF] - Started HTTP head
+2018-11-01 14:48:23.500 +00:00 [INF] - Cloud connection for franky/EventParser is True
+2018-11-01 14:48:23.500 +00:00 [INF] - Connection status for franky/EventParser changed to ConnectionEstablished
+2018-11-01 14:48:23.501 +00:00 [INF] - Processing subscriptions for client franky/EventParser.
+2018-11-01 14:48:23.502 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.
+2018-11-01 14:53:14.511 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 14:58:14.458 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:03:14.458 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:08:14.460 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:10:11.762 +00:00 [WRN] - Did not receive ack for message 22439ad9-98e4-4d13-9ba1-bee6a703ad51 from device/module franky/EventParser
+2018-11-01 15:10:11.780 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:10:42.801 +00:00 [WRN] - Did not receive ack for message b9cfb693-02b4-4df6-99bf-0cdc5295c30a from device/module franky/EventParser
+2018-11-01 15:10:42.806 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:11:14.931 +00:00 [WRN] - Did not receive ack for message 4a5c46c6-07a1-4c6c-ab56-51e7d9deb79b from device/module franky/EventParser
+2018-11-01 15:11:14.936 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:11:48.889 +00:00 [WRN] - Did not receive ack for message fec603da-662a-4bea-9032-5c2503f8598a from device/module franky/EventParser
+2018-11-01 15:11:48.894 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:12:26.030 +00:00 [WRN] - Did not receive ack for message b2cb949a-5e5a-49da-a736-ae30515675ed from device/module franky/EventParser
+2018-11-01 15:12:26.034 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:13:09.771 +00:00 [WRN] - Did not receive ack for message 683e23ae-af3e-4c86-ab25-48cd7c26508d from device/module franky/EventParser
+2018-11-01 15:13:09.775 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:13:14.461 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:14:06.731 +00:00 [WRN] - Did not receive ack for message d5e4258d-3925-4ef0-a462-80d82e30761d from device/module franky/EventParser
+2018-11-01 15:14:06.735 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:15:36.749 +00:00 [WRN] - Did not receive ack for message 155eda5d-ca10-480e-bbfb-8e55e978ce1e from device/module franky/EventParser
+2018-11-01 15:15:36.753 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:17:06.760 +00:00 [WRN] - Did not receive ack for message 8478aa73-2d6f-4a41-8f77-934c38f921ce from device/module franky/EventParser
+2018-11-01 15:17:06.765 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:18:05.311 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint iothub
+2018-11-01 15:18:14.498 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:18:36.811 +00:00 [WRN] - Did not receive ack for message 9798fe1b-92f2-4d88-9237-87018d52f2c1 from device/module franky/EventParser
+2018-11-01 15:18:36.814 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:20:06.859 +00:00 [WRN] - Did not receive ack for message 9f65cdcc-aad2-4c8f-b7e5-63b2da5cb8b7 from device/module franky/EventParser
+2018-11-01 15:20:06.862 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:20:30.705 +00:00 [INF] - Cleaned up 24662 messages from queue for endpoint iothub and 24662 messages from message store.
+2018-11-01 15:21:00.703 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint franky/EventParser/input1
+2018-11-01 15:21:36.876 +00:00 [WRN] - Did not receive ack for message 0d562e34-4e63-4f27-83f9-89717b4f723a from device/module franky/EventParser
+2018-11-01 15:21:36.880 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:22:03.079 +00:00 [INF] - Cleaned up 10763 messages from queue for endpoint franky/EventParser/input1 and 10763 messages from message store.
+2018-11-01 15:23:06.954 +00:00 [WRN] - Did not receive ack for message 0b5101ac-f104-4123-a672-9fdd4dcb7500 from device/module franky/EventParser
+2018-11-01 15:23:06.959 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:23:14.460 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:24:37.050 +00:00 [WRN] - Did not receive ack for message 395a6cf1-4189-4f8d-8da4-908462ac80d6 from device/module franky/EventParser
+2018-11-01 15:24:37.054 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:26:07.060 +00:00 [WRN] - Did not receive ack for message 2715d7db-f8af-4865-82f3-88a2dc52f8b7 from device/module franky/EventParser
+2018-11-01 15:26:07.065 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:27:37.069 +00:00 [WRN] - Did not receive ack for message d88f8797-30fd-455f-a5ce-2bb8a06c8e02 from device/module franky/EventParser
+2018-11-01 15:27:37.073 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:28:14.456 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:29:07.089 +00:00 [WRN] - Did not receive ack for message 41503a39-8320-44d8-b238-cccc3be12199 from device/module franky/EventParser
+2018-11-01 15:29:07.095 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:30:37.100 +00:00 [WRN] - Did not receive ack for message c51f0b42-e908-47d3-98a0-8cb0433a6757 from device/module franky/EventParser
+2018-11-01 15:30:37.104 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:32:07.125 +00:00 [WRN] - Did not receive ack for message 2585080c-39f3-4680-8634-f0aa5d1f22a6 from device/module franky/EventParser
+2018-11-01 15:32:07.129 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:33:14.455 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:33:14.462 +00:00 [WRN] - Error authenticating token for franky/EventParser because the token could not be parsed
+System.UnauthorizedAccessException: The specified SAS token is expired
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature..ctor(String iotHubName, DateTime expiresOn, String expiry, String keyName, String signature, String encodedAudience)
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature.Parse(String iotHubName, String rawToken)
+   at Microsoft.Azure.Devices.Edge.Hub.CloudProxy.Authenticators.DeviceScopeTokenAuthenticator.TryGetSharedAccessSignature(String token, IIdentity identity, SharedAccessSignature& sharedAccessSignature)
+2018-11-01 15:33:14.468 +00:00 [WRN] - Reauthenticating client franky/EventParser failed, removing client connection
+2018-11-01 15:33:14.473 +00:00 [INF] - Unable to re-authenticate franky/EventParser, dropping client connection.
+2018-11-01 15:33:14.558 +00:00 [WRN] - Closing connection for device: franky/EventParser, Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventParser.,
+2018-11-01 15:33:14.565 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventParser because of exception - Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventParser.
+2018-11-01 15:33:14.618 +00:00 [INF] - Closing device proxy for device Id franky/EventParser
+2018-11-01 15:33:14.621 +00:00 [INF] - Device connection removed for device franky/EventParser
+2018-11-01 15:33:14.696 +00:00 [WRN] - Error authenticating token for franky/EventGenerator because the token could not be parsed
+System.UnauthorizedAccessException: The specified SAS token is expired
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature..ctor(String iotHubName, DateTime expiresOn, String expiry, String keyName, String signature, String encodedAudience)
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature.Parse(String iotHubName, String rawToken)
+   at Microsoft.Azure.Devices.Edge.Hub.CloudProxy.Authenticators.DeviceScopeTokenAuthenticator.TryGetSharedAccessSignature(String token, IIdentity identity, SharedAccessSignature& sharedAccessSignature)
+2018-11-01 15:33:14.699 +00:00 [WRN] - Reauthenticating client franky/EventGenerator failed, removing client connection
+2018-11-01 15:33:14.699 +00:00 [INF] - Unable to re-authenticate franky/EventGenerator, dropping client connection.
+2018-11-01 15:33:14.700 +00:00 [WRN] - Closing connection for device: franky/EventGenerator, Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventGenerator.,
+2018-11-01 15:33:14.701 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventGenerator because of exception - Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventGenerator.
+2018-11-01 15:33:14.701 +00:00 [INF] - Closing device proxy for device Id franky/EventGenerator
+2018-11-01 15:33:14.701 +00:00 [INF] - Device connection removed for device franky/EventGenerator
+2018-11-01 15:33:37.247 +00:00 [WRN] - Did not receive ack for message 3e546dba-67df-46e5-bc5e-e7d4278c73cf from device/module franky/EventParser
+2018-11-01 15:33:37.253 +00:00 [WRN] - Error sending messages to module franky/EventParser
+System.TimeoutException: Message completion response not received
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Device.DeviceMessageHandler.SendMessageAsync(IMessage message, String input)
+   at Microsoft.Azure.Devices.Edge.Hub.Core.Routing.ModuleEndpoint.ModuleMessageProcessor.<>c__DisplayClass5_2.<<ProcessAsync>b__0>d.MoveNext()
+2018-11-01 15:34:37.269 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:35:37.272 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:36:37.269 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:37:37.279 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:38:14.458 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:38:37.280 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:39:37.280 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:40:37.279 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:41:37.289 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:42:37.289 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:43:14.458 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:43:37.291 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:44:37.289 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:45:37.299 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:46:37.300 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:47:37.299 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:48:08.744 +00:00 [INF] - Starting refresh of device scope identities cache
+2018-11-01 15:48:14.459 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:48:19.103 +00:00 [INF] - Closing cloud proxy 1160d4fa-89d0-4241-a367-be638ed6452e for franky/EventGenerator because of inactivity
+2018-11-01 15:48:19.186 +00:00 [INF] - Closing receiver in cloud proxy 1160d4fa-89d0-4241-a367-be638ed6452e for franky/EventGenerator
+2018-11-01 15:48:19.189 +00:00 [INF] - Closed cloud proxy 1160d4fa-89d0-4241-a367-be638ed6452e for franky/EventGenerator
+2018-11-01 15:48:37.301 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:49:37.299 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:50:37.309 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:51:37.310 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:52:33.084 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint iothub
+2018-11-01 15:52:33.085 +00:00 [INF] - Cleaned up 0 messages from queue for endpoint iothub and 0 messages from message store.
+2018-11-01 15:52:37.311 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:53:03.079 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint franky/EventParser/input1
+2018-11-01 15:53:03.080 +00:00 [INF] - Cleaned up 0 messages from queue for endpoint franky/EventParser/input1 and 0 messages from message store.
+2018-11-01 15:53:14.459 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:53:37.308 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:54:37.318 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:55:37.322 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:56:37.322 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:57:37.323 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:58:14.462 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 15:58:37.323 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 15:59:37.329 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:00:37.333 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:01:37.334 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:02:37.332 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:03:14.458 +00:00 [INF] - Reauthenticating connected clients
+2018-11-01 16:03:37.338 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:04:37.343 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:05:37.344 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:06:37.344 +00:00 [WRN] - Module franky/EventParser is not connected
+2018-11-01 16:07:37.338 +00:00 [WRN] - Module franky/EventParser is not connected

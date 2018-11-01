@@ -27,3 +27,14 @@ The device sending messages concurrently will (at some point, approx <24hrs late
 ## Interpretation
 
 The only difference between the two deployments are the environment variables CONCURRENCY and INTERVAL, which determine the frequency and concurrency of events from EventGenerator. The two deployment have the same average value of events/sec, but franky sends all his at once. You should find that in less than 24hrs, franky has ceased to function, in that he is no longer sending messages to IoT Hub. However, all his modules are reported as 'running'. Dolly acts as a control case.
+
+## Logs
+
+See sample logs in the `/Logs` directory.
+
+## IoT Edge Metrics 
+
+The message delivery failure can be observed in IoT Hub metrics in the Azure Portal.
+
+![Graph of messages failing to be delivered to IoT Hub endpoint](Images/IoTHubMetrics-MessageDeliveryDrop.png)
+
