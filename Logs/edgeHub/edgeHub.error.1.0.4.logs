@@ -1,0 +1,74 @@
+2018-11-19 09:07:42.458 +00:00 [INF] - Successfully generated identity for clientId franky/EventParser and username riantest.azure-devices.net/franky/EventParser/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)
+2018-11-19 09:07:42.460 +00:00 [INF] - Successfully generated identity for clientId franky/EventGenerator and username riantest.azure-devices.net/franky/EventGenerator/?api-version=2018-06-30&DeviceClientType=azure-iot-device%2F1.7.0%20(node%20v8.11.4%3B%20Debian%208.11%3B%20arm)
+2018-11-19 09:07:42.482 +00:00 [INF] - ClientAuthenticated, franky/EventParser, 0e313bc7
+2018-11-19 09:07:42.482 +00:00 [INF] - ClientAuthenticated, franky/EventGenerator, 67f3441b
+2018-11-19 09:07:42.632 +00:00 [WRN] - Could not get an active Iot Hub connection for device franky/EventParser
+2018-11-19 09:07:42.776 +00:00 [INF] - New device connection for device franky/EventGenerator
+2018-11-19 09:07:42.778 +00:00 [INF] - New device connection for device franky/EventParser
+2018-11-19 09:07:42.836 +00:00 [INF] - Bind device proxy for device franky/EventParser
+2018-11-19 09:07:42.836 +00:00 [INF] - Bind device proxy for device franky/EventGenerator
+2018-11-19 09:07:42.843 +00:00 [INF] - Binding message channel for device Id franky/EventParser
+2018-11-19 09:07:42.843 +00:00 [INF] - Binding message channel for device Id franky/EventGenerator
+2018-11-19 09:07:42.878 +00:00 [WRN] - No subscription for receiving messages found for franky/EventParser
+2018-11-19 09:07:42.994 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventParser via AMQP...
+2018-11-19 09:07:43.141 +00:00 [INF] - Cloud connection for franky/EventParser is True
+2018-11-19 09:07:43.142 +00:00 [INF] - Created cloud proxy for client franky/EventParser via AMQP, with client operation timeout 20000.
+2018-11-19 09:07:43.142 +00:00 [INF] - Initialized cloud proxy 0d17e6de-4cd7-4cbf-a3dc-af4187d76a1f for franky/EventParser
+2018-11-19 09:07:43.143 +00:00 [INF] - Created cloud connection for client franky/EventParser
+2018-11-19 09:07:43.143 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventParser.
+2018-11-19 09:07:43.192 +00:00 [INF] - Set subscriptions from session state for franky/EventParser
+2018-11-19 09:07:44.591 +00:00 [WRN] - Overriding address(es) '"http://+:80"'. Binding to endpoints defined in "UseKestrel()" instead.
+2018-11-19 09:07:44.724 +00:00 [INF] - Started HTTP head
+2018-11-19 09:07:45.878 +00:00 [INF] - Attempting to connect to IoT Hub for client franky/EventGenerator via AMQP...
+2018-11-19 09:07:45.955 +00:00 [INF] - Cloud connection for franky/EventGenerator is True
+2018-11-19 09:07:45.955 +00:00 [INF] - Created cloud proxy for client franky/EventGenerator via AMQP, with client operation timeout 20000.
+2018-11-19 09:07:45.956 +00:00 [INF] - Initialized cloud proxy c976cf61-bfa5-4fc0-83d8-20984698baa5 for franky/EventGenerator
+2018-11-19 09:07:45.956 +00:00 [INF] - Created cloud connection for client franky/EventGenerator
+2018-11-19 09:07:45.957 +00:00 [INF] - Processing subscription ModuleMessages for client franky/EventGenerator.
+2018-11-19 09:07:45.958 +00:00 [INF] - Set subscriptions from session state for franky/EventGenerator
+2018-11-19 09:12:39.264 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:17:39.212 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:22:39.213 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:27:39.214 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:32:39.217 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:37:29.954 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint iothub
+2018-11-19 09:37:39.211 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:38:06.353 +00:00 [INF] - Cleaned up 6041 messages from queue for endpoint iothub and 6041 messages from message store.
+2018-11-19 09:38:36.359 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint franky/EventParser/input1
+2018-11-19 09:39:06.631 +00:00 [INF] - Cleaned up 5117 messages from queue for endpoint franky/EventParser/input1 and 5117 messages from message store.
+2018-11-19 09:42:39.214 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:42:39.219 +00:00 [WRN] - Error authenticating token for franky/EventGenerator because the token could not be parsed
+System.UnauthorizedAccessException: The specified SAS token is expired
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature..ctor(String iotHubName, DateTime expiresOn, String expiry, String keyName, String signature, String encodedAudience)
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature.Parse(String iotHubName, String rawToken)
+   at Microsoft.Azure.Devices.Edge.Hub.CloudProxy.Authenticators.DeviceScopeTokenAuthenticator.TryGetSharedAccessSignature(String token, IIdentity identity, SharedAccessSignature& sharedAccessSignature)
+2018-11-19 09:42:39.224 +00:00 [WRN] - Reauthenticating client franky/EventGenerator failed, removing client connection
+2018-11-19 09:42:39.227 +00:00 [INF] - Unable to re-authenticate franky/EventGenerator, dropping client connection.
+2018-11-19 09:42:39.274 +00:00 [WRN] - Closing connection for device: franky/EventGenerator, Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventGenerator.,
+2018-11-19 09:42:39.281 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventGenerator because of exception - Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventGenerator.
+2018-11-19 09:42:39.329 +00:00 [INF] - Closing device proxy for device Id franky/EventGenerator
+2018-11-19 09:42:39.332 +00:00 [INF] - Device connection removed for device franky/EventGenerator
+2018-11-19 09:42:39.408 +00:00 [WRN] - Error authenticating token for franky/EventParser because the token could not be parsed
+System.UnauthorizedAccessException: The specified SAS token is expired
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature..ctor(String iotHubName, DateTime expiresOn, String expiry, String keyName, String signature, String encodedAudience)
+   at Microsoft.Azure.Devices.Common.Security.SharedAccessSignature.Parse(String iotHubName, String rawToken)
+   at Microsoft.Azure.Devices.Edge.Hub.CloudProxy.Authenticators.DeviceScopeTokenAuthenticator.TryGetSharedAccessSignature(String token, IIdentity identity, SharedAccessSignature& sharedAccessSignature)
+2018-11-19 09:42:39.412 +00:00 [WRN] - Reauthenticating client franky/EventParser failed, removing client connection
+2018-11-19 09:42:39.413 +00:00 [INF] - Unable to re-authenticate franky/EventParser, dropping client connection.
+2018-11-19 09:42:39.413 +00:00 [WRN] - Closing connection for device: franky/EventParser, Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventParser.,
+2018-11-19 09:42:39.414 +00:00 [INF] - Disposing MessagingServiceClient for device Id franky/EventParser because of exception - Microsoft.Azure.Devices.Edge.Hub.Core.EdgeHubConnectionException: Connection closed for device franky/EventParser.
+2018-11-19 09:42:39.414 +00:00 [INF] - Closing device proxy for device Id franky/EventParser
+2018-11-19 09:42:39.415 +00:00 [INF] - Device connection removed for device franky/EventParser
+2018-11-19 09:47:39.201 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:52:39.210 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 09:57:39.212 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 10:02:39.212 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 10:07:33.665 +00:00 [INF] - Starting refresh of device scope identities cache
+2018-11-19 10:07:39.211 +00:00 [INF] - Reauthenticating connected clients
+2018-11-19 10:07:45.976 +00:00 [INF] - Closing cloud proxy c976cf61-bfa5-4fc0-83d8-20984698baa5 for franky/EventGenerator because of inactivity
+2018-11-19 10:07:46.025 +00:00 [INF] - Closing receiver in cloud proxy c976cf61-bfa5-4fc0-83d8-20984698baa5 for franky/EventGenerator
+2018-11-19 10:07:46.028 +00:00 [INF] - Closed cloud proxy c976cf61-bfa5-4fc0-83d8-20984698baa5 for franky/EventGenerator
+2018-11-19 10:09:36.634 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint iothub
+2018-11-19 10:09:36.635 +00:00 [INF] - Cleaned up 0 messages from queue for endpoint iothub and 0 messages from message store.
+2018-11-19 10:10:06.631 +00:00 [INF] - Started task to cleanup processed and stale messages for endpoint franky/EventParser/input1
+2018-11-19 10:10:06.632 +00:00 [INF] - Cleaned up 0 messages from queue for endpoint franky/EventParser/input1 and 0 messages from message store.
